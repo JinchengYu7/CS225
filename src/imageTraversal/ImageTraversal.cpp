@@ -87,16 +87,6 @@ ImageTraversal::Iterator & ImageTraversal::Iterator::operator++() {
     else{
       curpt=travsl->peek();
     }
-  //   Point next = travsl->pop();
-  // while (isvisited[next.x + next.y * image_.width()]) {
-  //   if (travsl->empty()) {
-
-  //     return *this;
-  //   }
-  //   next = travsl->pop();
-  // }
-
-  // curpt = next;
   return *this;
 }
 
