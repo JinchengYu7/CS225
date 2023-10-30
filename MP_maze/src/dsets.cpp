@@ -13,7 +13,6 @@ int DisjointSets::find(int elem){
 		v[elem] = find(v[elem]);
 		return v[elem];
 	}
-
 }
 
 void DisjointSets::setunion(int a, int b){
